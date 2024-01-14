@@ -1,0 +1,5 @@
+[user]
+	name = Tomas Karlsen
+	email = tkarlsn@gmail.com
+[core]
+	editor = nvim

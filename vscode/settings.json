@@ -1,0 +1,269 @@
+{
+  "workbench.colorTheme": "Serendipity Midnight",
+  "git.openRepositoryInParentFolders": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontFamily": "FiraCode NF,FiraCode Nerd Font",
+
+  "editor.linkedEditing": true,
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+  "typescript.autoClosingTags": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[csharp]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
+  },
+  "[css]": {
+    "editor.formatOnSave": true
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "editor.minimap.enabled": false,
+  "redhat.telemetry.enabled": false,
+
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.userWords": [
+        "Compref",
+        "Financials",
+        "Flexbox",
+        "Fronten",
+        "frontliner",
+        "Gumc",
+        "nace",
+        "Onprem",
+        "personalia",
+        "Teradata",
+        "workgroups"
+    ],
+    "window.zoomLevel": -1,
+  "editor.inlineSuggest.enabled": true,
+  "window.commandCenter": true,
+    "npm.packageManager": "yarn",
+    "workbench.editorAssociations": {
+        "*.avro": "default"
+    },
+    "[javascript][javascriptreact][typescript][typescriptreact]": {
+        "editor.codeActionsOnSave": {
+          "source.organizeImports": "explicit"
+        }
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "python.analysis.extraPaths": [],
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+
+  // Only renders whitespace when a portion of text is selected
+  "editor.renderWhitespace": "selection",
+  // Disable line highlight, you can enable this if you want
+  "editor.renderLineHighlight": "none",
+  // Disables the overview ruler.
+  "editor.overviewRulerBorder": false,
+  // Some stuff about the overview rules
+  "editor.hideCursorInOverviewRuler": true,
+  // Disables code folding
+  "editor.folding": false,
+  // Do not highlight word occurences
+  "editor.occurrencesHighlight": "off",
+  // Don't match brackets
+  "editor.matchBrackets": "never",
+  // Disable glyph margin
+  "editor.glyphMargin": false,
+  // Don't show open editors in the Explorer pane
+  "explorer.openEditors.visible": 0,
+  // Disable icons in the tabs
+  "workbench.editor.showIcons": false,
+  // Hide statusbar
+  //"workbench.statusBar.visible": false,
+  "workbench.colorCustomizations": {
+    "tab.activeBorder": "#0000",
+    "statusBar.background": "#B48EAD",
+    "statusBar.noFolderBackground": "#B48EAD",
+    "statusBar.debuggingBackground": "#B48EAD",
+    "statusBar.foreground": "#434C5E",
+    "statusBar.debuggingForeground": "#434C5E"
+  },
+  // Enables that smooth caret animation, mwah !
+  "editor.cursorBlinking": "phase",
+  // Make the cursor move around the code smoothly
+  "editor.cursorSmoothCaretAnimation": "on",
+  // Adjusts the line height. Also changes the caret width
+  "editor.lineHeight": 26,
+  // Enables different color pools for different bracket types, for example {}, [], ()
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  // Enable guides for bracket pairs
+  "editor.guides.bracketPairs": false,
+  // Disbles breadcrumbs. Please, do not enable them, for the love of god, please
+  "breadcrumbs.enabled": false,
+  // Hides the ugly menu bar
+  "window.menuBarVisibility": "visible",
+  // Don't know what this does, lol
+  "workbench.layoutControl.enabled": false,
+  // Sets the window title
+  //"window.title": "${dirty}${activeEditorShort}",
+  // Disable indent guides
+  "workbench.tree.renderIndentGuides": "none",
+  // Enables smooth scrolling, a must have
+  "editor.smoothScrolling": true,
+  "editor.fontFamily": "FiraCode Nerd Font,Consolas, 'Courier New', monospace",  
+  "editor.lineNumbers": "relative",
+
+  //To improve performance
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  // VIM
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    // {
+    //   "before": [":"],
+    //   "commands": [
+    //     "workbench.action.showCommands"
+    //   ],
+    //   "silent": true 
+    // },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": [
+          "workbench.action.files.save",
+      ]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["<C-w>", "h"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<C-w>", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<C-w>", "k"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<C-w>", "l"]
+    },
+    {
+      "before": ["<C-d>"],
+      "after": ["<C-d>", "z", "z"]
+    },
+    {
+      "before": ["<C-u>"],
+      "after": ["<C-u>", "z", "z"]
+    },
+    {
+      "before": ["n"],
+      "after": ["n", "z", "z", "z", "v"]
+    },
+    {
+      "before": ["N"],
+      "after": ["N", "z", "z", "z", "v"]
+    },
+    // Not working. Should delete word, paste and not override what you have pasted
+    {
+      "before": ["<leader>", "p"],
+      "after": ["/_", "d", "p"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false,
+    "<C-b>": false,
+    "<C-p>": false,
+    "<C-v>": false,
+    "<C-n>": false
+  },
+
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+    "vim.statusBarColors.insert": "#BF616A",
+    "vim.statusBarColors.visual": "#B48EAD",
+    "vim.statusBarColors.visualline": "#B48EAD",
+    "vim.statusBarColors.visualblock": "#A3BE8C",
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+}
