@@ -1,30 +1,8 @@
 {
-  "workbench.colorTheme": "Serendipity Midnight",
   "git.openRepositoryInParentFolders": "never",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontFamily": "FiraCode NF,FiraCode Nerd Font",
-  "editor.renderWhitespace": "selection",
-  "editor.renderLineHighlight": "none",
-  "editor.overviewRulerBorder": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.folding": false,
-  "editor.occurrencesHighlight": "off",
-  "editor.matchBrackets": "never",
-  "editor.glyphMargin": false,
-  "explorer.openEditors.visible": 0,
-  "workbench.editor.showIcons": false,
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.lineHeight": 26,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.guides.bracketPairs": false,
-  "breadcrumbs.enabled": false,
-  "window.menuBarVisibility": "visible",
-  "workbench.layoutControl.enabled": false,
-  "workbench.tree.renderIndentGuides": "none",
-  "editor.smoothScrolling": true,
-  "editor.fontFamily": "FiraCode Nerd Font,Consolas, 'Courier New', monospace",  
-  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "Serendipity Midnight",
   "editor.linkedEditing": true,
   "html.autoClosingTags": true,
   "javascript.autoClosingTags": true,
@@ -93,24 +71,45 @@
   "window.commandCenter": true,
   "npm.packageManager": "yarn",
   "workbench.editorAssociations": {
-      "*.avro": "default"
+    "*.avro": "default"
   },
   "[javascript][javascriptreact][typescript][typescriptreact]": {
-      "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
-      }
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
   },
   "remote.autoForwardPortsSource": "hybrid",
   "python.analysis.extraPaths": [],
   "eslint.validate": [
-      "html",
-      "javascript",
-      "typescript",
-      "javascriptreact",
-      "typescriptreact"
+    "html",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
   ],
 
-  //To improve performance on the VIM extensions
+  "editor.renderWhitespace": "selection",
+  "editor.renderLineHighlight": "none",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.folding": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.matchBrackets": "never",
+  "editor.glyphMargin": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.editor.showIcons": false,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.lineHeight": 26,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": false,
+  "breadcrumbs.enabled": false,
+  "window.menuBarVisibility": "visible",
+  "workbench.layoutControl.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.fontFamily": "FiraCode Nerd Font,Consolas, 'Courier New', monospace",
+  "editor.lineNumbers": "relative",
+
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1,
     "asvetliakov.vscode-neovim": 1
@@ -122,6 +121,7 @@
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "j"],
@@ -144,9 +144,7 @@
     },
     {
       "before": ["leader", "w"],
-      "commands": [
-          "workbench.action.files.save",
-      ]
+      "commands": ["workbench.action.files.save"]
     },
     {
       "before": ["<C-h>"],
@@ -189,6 +187,10 @@
       "before": ["<leader>", "e"],
       "commands": ["workbench.view.explorer"]
     },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["workbench.view.scm"]
+    }
   ],
   "vim.leader": "<space>",
   "vim.handleKeys": {
@@ -199,17 +201,6 @@
     "<C-v>": false,
     "<C-n>": false
   },
-
-  "vim.statusBarColorControl": false,
-  "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
-  "vim.statusBarColors.insert": "#BF616A",
-  "vim.statusBarColors.visual": "#B48EAD",
-  "vim.statusBarColors.visualline": "#B48EAD",
-  "vim.statusBarColors.visualblock": "#A3BE8C",
-  "vim.statusBarColors.replace": "#D08770",
-  "vim.statusBarColors.commandlineinprogress": "#007ACC",
-  "vim.statusBarColors.searchinprogressmode": "#007ACC",
-  "vim.statusBarColors.easymotionmode": "#007ACC",
-  "vim.statusBarColors.easymotioninputmode": "#007ACC",
-  "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "git.confirmSync": false,
+  "workbench.activityBar.location": "top"
 }
