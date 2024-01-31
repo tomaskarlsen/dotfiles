@@ -1,6 +1,7 @@
 # Tmux
 
 ## Setup
+
 Install tmux
 
 Install tmux plugin manager TPM
